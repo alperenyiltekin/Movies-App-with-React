@@ -1,0 +1,202 @@
+body {
+  background-color: black !important;
+}
+.App {
+  text-align: center;
+}
+.background {
+  background-image: url("../Vikings.jpg");
+  background-color: #000000;
+  background-repeat: no-repeat;
+  background-position: top;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.background:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 50%;
+  background: #000;
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+  z-index: 1;
+}
+.ban{
+  margin-bottom: 20px;
+}
+.ban img{
+  height: 100%;
+  width: 100%;
+}
+.navbar{
+  position: relative;
+  margin-top: 0;
+  padding-top: 5%;
+  margin-left: 2%;
+}
+.arama button:hover{
+  color: #007ed9;
+}
+.arama input{
+  position: relative;
+  border-radius: 5px;
+  border: none;
+  background-color: #102334;
+  text-underline: whitesmoke;
+  color: antiquewhite;
+  margin-right: 10%;
+}
+.row{
+  margin-top: 10px;
+  margin-right: 40px;
+  position: relative;
+}
+.row .col-sm-6{
+  margin-bottom: 25px;
+}
+.container .content-title{
+  position: relative;
+  color: whitesmoke;
+  margin-right: 100%;
+}
+.container .row .ban:hover .img-fluid{
+  opacity: .5;
+}
+.popup {
+  display: none;
+  position: absolute;
+}
+.ban{
+  height: 100%;
+}
+.ban:hover .popup {
+  display: block;
+  position:absolute;
+  right:0;
+  bottom:0;
+  width: 100%;
+  height: 100%;
+}
+.popup .closebutton{
+  position: absolute;
+  top: 10px;
+  right: 30px;
+  width: 25px;
+  height: 30px;
+}
+.popup .closebutton:focus{
+  outline: none;
+  box-shadow: none;
+}
+.container .popup i{
+  position: absolute;
+  color: white;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  width:30px;
+}
+.container .popup .image-detail{
+  position:absolute;
+  color: white;
+  text-align: left;
+  padding: 15px;
+  left: 10px;
+  right:0;
+  bottom:10px;
+}
+.container .popup i:hover {
+  color: #007ed9;
+}
+.menu button{
+   background-color: transparent;
+   border: none;
+   color: white;
+   margin: 5px;
+   float: left;
+ }
+.menu button:hover{
+  background-color: #007ed9;
+  border: none;
+}
+.app input{
+  background-color: #102334;
+  border:none;
+}
+.row input{
+  background-color: transparent;
+  padding-right: 20px;
+  padding-left: 10px;
+  color: white;
+  border: none;
+  border-bottom: white 1px solid;
+  width: 160px;
+}
+.error-class {
+  width: 100%;
+  height: 100%;
+}
+.container h3{
+  font-size: 25px;
+}
+.menu{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.menu a{
+  background-color: transparent;
+  padding:5px;
+  color: white;
+  border: none;
+  text-decoration: none;
+  margin-right: 10px;
+}
+.menu a:last-child {
+  margin-right: 0;
+}
+.menu a:hover{
+  background-color: #007ed9;
+  color: white;
+  border: none;
+  text-decoration: none;
+}
+.arama{
+  position:relative;
+  display: inline-block;
+  width: 200px;
+}
+.arama span{
+  position: absolute;
+  color: white;
+  right: 10px;
+  top: 3px;
+}
+.container h4{
+  color: white;
+  font-size: 40px;
+}
+.container .random-string{
+  margin-top: 260px;
+  margin-bottom: 60px;
+}
+.arama input{
+  background-color: transparent;
+  color: white;
+  border:none;
+  border-bottom: white 1px solid;
+  padding-right: 34px;
+  padding-left: 10px;
+  width: 200px;
+  border-radius: 0;
+}
+b{
+  display: block;
+}
